@@ -1,0 +1,1001 @@
+Customer_ID,Age,Gender,Tenure,Monthly_Charges,Total_Charges,Contract,Internet_Service,Payment_Method,Churn
+1,56,Male,1,3313,73811,Two Year,None,Cash,No
+2,69,Male,2,3083,192385,Two Year,None,UPI,No
+3,46,Male,8,661,73232,Month-to-Month,DSL,Debit Card,No
+4,32,Female,3,1093,287561,Month-to-Month,Fiber,Debit Card,Yes
+5,60,Male,10,3759,165801,Two Year,None,UPI,No
+6,25,Male,3,4655,122492,One Year,DSL,Cash,No
+7,38,Male,8,3462,40099,Month-to-Month,None,Debit Card,No
+8,56,Female,8,4388,239206,Two Year,None,UPI,No
+9,36,Female,2,3890,128474,Month-to-Month,Fiber,Cash,Yes
+10,40,Male,8,1163,281400,Month-to-Month,Fiber,Cash,No
+11,28,Male,1,1632,253588,Month-to-Month,Fiber,Debit Card,Yes
+12,28,Male,6,1041,44681,Two Year,None,Credit Card,No
+13,41,Male,8,3474,101328,One Year,None,Credit Card,Yes
+14,53,Female,3,1367,228512,One Year,None,Debit Card,Yes
+15,57,Female,8,2566,44540,One Year,Fiber,Cash,Yes
+16,41,Female,1,931,167608,Month-to-Month,DSL,Debit Card,No
+17,20,Female,9,4778,94700,Two Year,None,UPI,Yes
+18,39,Male,9,1706,197647,Month-to-Month,None,Credit Card,No
+19,19,Male,5,3028,56002,One Year,None,UPI,No
+20,41,Male,10,1669,59812,One Year,DSL,Debit Card,No
+21,61,Female,4,1330,201051,Two Year,None,Debit Card,No
+22,47,Male,6,2151,267906,Month-to-Month,DSL,Cash,No
+23,55,Female,7,1636,118946,One Year,None,Cash,Yes
+24,19,Female,5,3310,76668,Two Year,DSL,Cash,No
+25,38,Male,10,975,109003,Month-to-Month,None,UPI,Yes
+26,50,Male,9,3310,221142,Month-to-Month,Fiber,Cash,Yes
+27,29,Male,3,1826,230462,One Year,Fiber,Debit Card,Yes
+28,39,Female,7,1519,204886,One Year,Fiber,Cash,Yes
+29,61,Male,10,2336,114601,Month-to-Month,Fiber,Credit Card,Yes
+30,42,Female,10,4756,279956,Month-to-Month,None,Cash,Yes
+31,66,Male,5,2948,71844,One Year,Fiber,UPI,Yes
+32,44,Female,7,4793,211165,Month-to-Month,DSL,Credit Card,No
+33,59,Female,2,1783,184870,One Year,Fiber,Credit Card,Yes
+34,45,Male,4,1159,84601,Month-to-Month,Fiber,Credit Card,No
+35,33,Female,2,2510,292844,One Year,Fiber,UPI,Yes
+36,32,Female,7,898,267927,Two Year,None,Debit Card,Yes
+37,64,Male,2,2233,183423,One Year,Fiber,Cash,Yes
+38,68,Female,1,2625,103330,One Year,DSL,Credit Card,Yes
+39,61,Male,9,2671,235391,Two Year,Fiber,Credit Card,No
+40,69,Female,1,574,223606,Month-to-Month,Fiber,Credit Card,No
+41,20,Male,8,3971,201387,Two Year,Fiber,Debit Card,No
+42,54,Male,2,1336,251133,One Year,DSL,Debit Card,Yes
+43,68,Female,8,999,172627,Month-to-Month,Fiber,UPI,Yes
+44,24,Female,3,637,188048,Two Year,DSL,Debit Card,Yes
+45,38,Female,6,2597,55095,Month-to-Month,DSL,Cash,No
+46,26,Female,3,4196,155342,Month-to-Month,Fiber,UPI,Yes
+47,56,Female,7,2385,171980,Two Year,DSL,UPI,No
+48,35,Male,10,3257,287667,Month-to-Month,None,Cash,No
+49,21,Female,9,4420,72433,Two Year,Fiber,Cash,Yes
+50,42,Male,2,2400,29991,One Year,Fiber,Cash,Yes
+51,31,Male,5,3110,282919,Month-to-Month,DSL,UPI,No
+52,67,Female,6,4486,157745,One Year,DSL,UPI,No
+53,26,Male,4,1949,132808,One Year,Fiber,UPI,No
+54,43,Male,4,1046,168128,Month-to-Month,None,Cash,Yes
+55,19,Male,4,2503,147686,Two Year,DSL,Cash,Yes
+56,37,Male,2,2596,17415,Month-to-Month,DSL,Credit Card,Yes
+57,45,Female,4,1203,256038,One Year,None,Debit Card,Yes
+58,64,Male,1,2903,264205,One Year,None,Credit Card,Yes
+59,24,Female,6,2125,198221,Two Year,Fiber,Cash,Yes
+60,61,Female,1,3831,178616,Month-to-Month,None,UPI,No
+61,25,Male,10,3478,59976,One Year,Fiber,Cash,No
+62,64,Female,6,3339,275976,One Year,None,Debit Card,No
+63,52,Female,1,3884,231883,One Year,DSL,Credit Card,Yes
+64,31,Female,6,3159,221509,Two Year,Fiber,Credit Card,No
+65,34,Male,10,2361,249241,One Year,Fiber,UPI,Yes
+66,53,Female,8,3356,229526,One Year,Fiber,Credit Card,Yes
+67,67,Female,2,1185,198799,Month-to-Month,None,Credit Card,No
+68,57,Female,2,4783,48578,Month-to-Month,DSL,Cash,Yes
+69,21,Male,4,2119,100453,One Year,Fiber,Credit Card,No
+70,19,Female,3,1931,218859,One Year,Fiber,Credit Card,No
+71,23,Male,4,1375,121435,Month-to-Month,Fiber,Credit Card,Yes
+72,59,Male,7,2961,226101,Two Year,Fiber,UPI,No
+73,21,Male,1,1865,161538,Two Year,DSL,UPI,No
+74,46,Male,6,1743,55475,Two Year,None,Cash,No
+75,35,Male,3,662,226232,Two Year,DSL,Credit Card,No
+76,43,Male,10,2474,167636,Two Year,Fiber,UPI,Yes
+77,61,Female,7,3791,163484,Two Year,DSL,UPI,No
+78,51,Male,10,769,103526,Two Year,Fiber,Cash,No
+79,27,Female,2,1131,61001,Two Year,None,Debit Card,No
+80,53,Female,2,1405,202029,Month-to-Month,None,Credit Card,Yes
+81,31,Male,4,3971,154228,Two Year,None,UPI,No
+82,48,Female,1,3753,35711,Two Year,Fiber,Cash,Yes
+83,65,Female,3,2514,40106,Two Year,DSL,Cash,No
+84,32,Female,9,2141,227583,One Year,None,Cash,No
+85,25,Female,7,704,148286,Month-to-Month,Fiber,UPI,No
+86,31,Male,7,1081,237189,Month-to-Month,Fiber,Credit Card,Yes
+87,40,Female,4,1340,136479,Month-to-Month,DSL,Debit Card,Yes
+88,57,Male,2,2219,146213,Two Year,None,Credit Card,Yes
+89,38,Female,4,3143,38884,Two Year,Fiber,Cash,Yes
+90,33,Female,6,2797,274852,One Year,DSL,Cash,Yes
+91,62,Male,3,1374,290519,Month-to-Month,None,Debit Card,Yes
+92,35,Female,1,1189,25088,Two Year,DSL,Credit Card,No
+93,64,Female,8,4500,186118,Month-to-Month,DSL,Cash,Yes
+94,41,Female,5,3641,282158,One Year,Fiber,Cash,No
+95,43,Male,5,1922,205497,One Year,Fiber,Credit Card,Yes
+96,42,Female,4,1171,188207,One Year,Fiber,Cash,Yes
+97,62,Male,6,1671,88077,Month-to-Month,DSL,Credit Card,Yes
+98,58,Female,3,4226,149784,Two Year,Fiber,Cash,No
+99,46,Male,9,1443,215776,Two Year,DSL,Credit Card,Yes
+100,32,Male,5,1949,79087,One Year,DSL,Debit Card,Yes
+101,62,Female,3,4237,284441,Two Year,Fiber,Cash,No
+102,18,Female,1,3039,250341,One Year,None,Debit Card,No
+103,42,Male,10,4459,299272,Month-to-Month,None,Cash,No
+104,24,Male,6,4760,78368,One Year,None,Cash,No
+105,26,Female,2,2861,229571,Month-to-Month,DSL,UPI,Yes
+106,41,Male,3,4152,261514,One Year,DSL,Credit Card,No
+107,18,Female,1,4170,152180,Two Year,DSL,Debit Card,Yes
+108,61,Female,9,2253,269904,Two Year,Fiber,Debit Card,Yes
+109,25,Female,8,2852,87603,One Year,DSL,Debit Card,No
+110,41,Female,2,2438,43872,Two Year,Fiber,Credit Card,Yes
+111,28,Male,8,870,282872,Two Year,Fiber,UPI,No
+112,68,Female,9,4979,292727,Two Year,None,Debit Card,Yes
+113,34,Male,1,2431,95774,Month-to-Month,None,Credit Card,No
+114,25,Female,5,924,208522,Two Year,None,Cash,No
+115,52,Male,8,1394,230357,Month-to-Month,Fiber,Debit Card,No
+116,52,Female,2,1097,75942,One Year,Fiber,Debit Card,No
+117,50,Male,4,3562,23689,Two Year,Fiber,UPI,No
+118,22,Male,7,2836,43276,Two Year,DSL,Debit Card,No
+119,59,Female,3,2187,111968,Two Year,Fiber,Debit Card,Yes
+120,56,Female,5,1072,285194,One Year,None,Cash,Yes
+121,58,Female,8,2590,76216,Month-to-Month,None,Credit Card,Yes
+122,45,Female,10,4169,225516,Month-to-Month,Fiber,Credit Card,No
+123,24,Male,3,4772,31644,Two Year,Fiber,UPI,Yes
+124,26,Female,4,2133,72021,One Year,None,Cash,No
+125,25,Male,9,2017,178197,One Year,Fiber,Credit Card,Yes
+126,29,Male,7,4793,52291,One Year,None,Cash,Yes
+127,51,Female,1,3157,35675,One Year,DSL,Credit Card,No
+128,50,Male,4,4148,159359,One Year,None,Cash,Yes
+129,65,Male,4,4088,272318,Month-to-Month,DSL,UPI,Yes
+130,40,Male,9,2037,102268,Month-to-Month,Fiber,Debit Card,Yes
+131,41,Male,6,3637,194384,Month-to-Month,Fiber,UPI,No
+132,54,Female,9,597,115410,Two Year,DSL,Credit Card,Yes
+133,52,Female,6,3715,139887,One Year,Fiber,UPI,No
+134,61,Female,6,4250,211554,Two Year,DSL,Debit Card,Yes
+135,57,Female,5,3657,296762,One Year,Fiber,UPI,Yes
+136,39,Male,5,843,44675,Month-to-Month,None,Credit Card,Yes
+137,44,Male,2,1110,291063,Two Year,Fiber,Credit Card,Yes
+138,52,Female,8,2227,276317,Month-to-Month,None,UPI,No
+139,18,Female,8,2790,298544,One Year,None,Debit Card,Yes
+140,52,Female,1,2354,191517,One Year,DSL,UPI,No
+141,54,Male,8,3108,80305,One Year,Fiber,Debit Card,No
+142,64,Female,5,2579,178636,Month-to-Month,DSL,Cash,Yes
+143,31,Female,2,2824,98791,One Year,Fiber,Debit Card,Yes
+144,20,Female,2,1677,169034,Month-to-Month,None,Cash,No
+145,18,Male,6,1591,80533,Two Year,None,UPI,No
+146,22,Male,9,3291,197256,One Year,Fiber,Debit Card,Yes
+147,43,Male,1,2249,151650,One Year,Fiber,Cash,Yes
+148,31,Male,6,3175,141060,One Year,DSL,Cash,Yes
+149,56,Male,9,1281,159696,Two Year,Fiber,Cash,Yes
+150,44,Male,8,3548,252188,One Year,Fiber,Credit Card,Yes
+151,26,Male,6,2605,247501,Month-to-Month,Fiber,UPI,No
+152,32,Male,3,4367,193887,Month-to-Month,DSL,Cash,Yes
+153,32,Female,8,2613,14986,One Year,Fiber,Debit Card,Yes
+154,43,Female,9,4470,273625,One Year,None,Cash,No
+155,59,Male,1,2491,210339,Two Year,DSL,Credit Card,Yes
+156,30,Male,9,1567,131950,Two Year,DSL,UPI,Yes
+157,68,Female,6,2077,135355,Two Year,None,Credit Card,No
+158,49,Male,6,1511,37798,One Year,None,Credit Card,Yes
+159,56,Male,4,2774,101649,Two Year,None,Credit Card,No
+160,66,Male,1,2314,29477,Two Year,Fiber,Debit Card,Yes
+161,69,Female,10,2926,227400,Month-to-Month,None,UPI,Yes
+162,49,Female,8,4902,227060,Two Year,Fiber,UPI,Yes
+163,21,Female,2,3051,296479,Month-to-Month,DSL,Debit Card,No
+164,47,Female,1,4157,283586,Month-to-Month,DSL,UPI,No
+165,54,Female,2,507,116464,Two Year,None,Credit Card,No
+166,40,Male,1,3055,141184,Month-to-Month,Fiber,UPI,No
+167,56,Female,1,975,97051,One Year,None,Debit Card,Yes
+168,62,Male,9,2711,160653,One Year,None,Credit Card,No
+169,32,Male,1,984,255300,Two Year,Fiber,Debit Card,No
+170,60,Female,4,2785,69722,One Year,None,Cash,No
+171,46,Female,10,4025,102036,Month-to-Month,DSL,Credit Card,Yes
+172,53,Male,6,3839,238634,One Year,None,Credit Card,Yes
+173,30,Male,7,3322,157595,Two Year,Fiber,UPI,No
+174,49,Male,2,3424,258709,Two Year,Fiber,Credit Card,No
+175,24,Female,6,758,291696,Month-to-Month,DSL,Debit Card,Yes
+176,68,Female,7,782,151880,Two Year,Fiber,UPI,No
+177,39,Female,10,2398,245419,One Year,Fiber,Cash,No
+178,45,Female,10,4635,164692,Two Year,DSL,Debit Card,No
+179,19,Female,2,3476,273031,Month-to-Month,None,Cash,No
+180,59,Male,2,2767,95024,Two Year,DSL,Cash,Yes
+181,62,Female,10,3700,255809,One Year,None,Cash,Yes
+182,23,Male,7,1112,128639,Month-to-Month,DSL,Credit Card,Yes
+183,45,Male,1,1187,91938,One Year,None,Debit Card,No
+184,45,Male,8,4190,227813,Month-to-Month,DSL,Debit Card,No
+185,61,Female,3,1112,262100,Two Year,None,Credit Card,Yes
+186,61,Female,6,2807,298193,Month-to-Month,DSL,UPI,Yes
+187,37,Female,9,3513,94526,Month-to-Month,None,Cash,Yes
+188,47,Male,6,2281,56220,Two Year,DSL,Debit Card,No
+189,28,Male,9,3091,85277,One Year,Fiber,Credit Card,Yes
+190,45,Male,7,3196,132332,Two Year,None,Cash,No
+191,42,Male,9,4458,244231,Month-to-Month,DSL,UPI,No
+192,56,Male,2,1074,32931,Two Year,None,UPI,Yes
+193,50,Male,8,2410,99116,Month-to-Month,None,Cash,Yes
+194,18,Female,8,4104,261671,Two Year,DSL,UPI,No
+195,44,Female,2,1169,61913,Two Year,None,Debit Card,Yes
+196,69,Female,4,4864,260216,One Year,DSL,Debit Card,Yes
+197,30,Female,7,1783,104776,Month-to-Month,Fiber,Debit Card,No
+198,58,Male,4,1423,35991,One Year,None,UPI,No
+199,20,Male,4,1625,195917,Month-to-Month,Fiber,Debit Card,No
+200,56,Female,6,2029,114092,Two Year,None,Credit Card,No
+201,23,Male,10,2094,239577,Month-to-Month,None,Debit Card,No
+202,25,Female,6,746,196384,One Year,None,Debit Card,Yes
+203,44,Female,10,4211,247113,One Year,DSL,UPI,No
+204,26,Female,3,2060,105556,One Year,Fiber,Debit Card,No
+205,54,Male,9,2900,166989,Month-to-Month,None,Cash,No
+206,50,Female,10,2743,138467,One Year,DSL,Credit Card,Yes
+207,68,Female,2,4364,228800,One Year,None,UPI,No
+208,59,Female,6,2439,136155,One Year,DSL,Credit Card,No
+209,61,Male,7,3569,69778,Two Year,None,Cash,No
+210,41,Male,9,726,55833,Two Year,Fiber,UPI,Yes
+211,32,Female,3,4047,294769,Month-to-Month,Fiber,UPI,No
+212,49,Male,10,764,42088,Month-to-Month,None,Debit Card,No
+213,49,Male,3,1895,220722,One Year,DSL,Credit Card,No
+214,41,Male,7,4057,206375,Two Year,None,Cash,Yes
+215,58,Male,4,1145,86361,One Year,DSL,Cash,Yes
+216,69,Male,8,3490,145189,One Year,None,UPI,Yes
+217,66,Male,7,2399,100265,Two Year,DSL,Debit Card,Yes
+218,66,Male,5,3004,107718,Two Year,Fiber,UPI,No
+219,69,Male,7,3272,104876,Two Year,None,UPI,No
+220,29,Male,3,1654,40949,Month-to-Month,Fiber,UPI,Yes
+221,56,Male,2,1087,222954,Month-to-Month,Fiber,UPI,Yes
+222,19,Female,6,2321,121541,One Year,None,Cash,No
+223,20,Female,2,1485,205691,Month-to-Month,None,Cash,No
+224,66,Male,3,4579,71842,Two Year,DSL,UPI,Yes
+225,54,Female,6,3848,242930,Two Year,DSL,UPI,Yes
+226,66,Female,5,4331,299134,Month-to-Month,Fiber,Debit Card,Yes
+227,34,Male,8,1741,157265,One Year,DSL,UPI,Yes
+228,66,Male,9,689,140356,One Year,DSL,Cash,No
+229,19,Male,3,1480,254629,Month-to-Month,None,Credit Card,Yes
+230,19,Female,10,2198,222802,One Year,DSL,Cash,Yes
+231,45,Female,3,2215,175582,One Year,Fiber,Debit Card,No
+232,40,Male,3,3093,273450,One Year,DSL,Cash,No
+233,54,Male,6,4636,13849,Two Year,Fiber,Credit Card,No
+234,49,Male,1,4933,22360,Two Year,None,UPI,No
+235,50,Female,7,1598,263279,Month-to-Month,Fiber,Credit Card,No
+236,18,Female,1,2826,104767,Two Year,DSL,UPI,Yes
+237,36,Female,5,3747,271445,One Year,None,UPI,Yes
+238,19,Female,10,1395,186872,Two Year,DSL,Cash,Yes
+239,61,Male,8,2174,64330,Month-to-Month,None,Cash,No
+240,43,Male,4,3409,61707,Two Year,None,Cash,Yes
+241,49,Male,5,1430,290833,One Year,DSL,Debit Card,No
+242,23,Male,4,4884,39084,One Year,DSL,Cash,Yes
+243,49,Female,4,1223,50387,Month-to-Month,None,Debit Card,Yes
+244,21,Female,8,3440,12642,Two Year,None,Cash,No
+245,28,Male,2,1589,196633,Two Year,DSL,UPI,No
+246,34,Male,1,1435,156510,Two Year,Fiber,Debit Card,Yes
+247,55,Female,3,2795,264511,One Year,DSL,Credit Card,Yes
+248,41,Male,9,655,273957,Month-to-Month,None,Debit Card,Yes
+249,22,Female,4,1570,94381,Two Year,DSL,Debit Card,Yes
+250,69,Male,10,2458,259880,One Year,Fiber,Credit Card,Yes
+251,51,Male,5,3001,203984,One Year,DSL,Debit Card,No
+252,23,Male,2,4719,70272,One Year,None,UPI,No
+253,39,Male,4,4330,183123,Two Year,DSL,Cash,No
+254,28,Male,2,1354,223808,Two Year,None,Credit Card,No
+255,65,Male,2,1139,263091,Two Year,None,Cash,Yes
+256,33,Male,4,2738,274064,Two Year,DSL,UPI,Yes
+257,50,Female,6,2102,116121,Two Year,None,Credit Card,No
+258,26,Female,7,941,86872,Two Year,None,Cash,Yes
+259,23,Female,10,1836,274237,Two Year,Fiber,Cash,No
+260,33,Female,3,4200,285049,Two Year,Fiber,UPI,Yes
+261,46,Female,3,1448,131759,Two Year,Fiber,Cash,Yes
+262,20,Male,10,3873,92289,One Year,Fiber,UPI,Yes
+263,37,Male,6,959,126506,Two Year,None,Debit Card,No
+264,53,Female,3,892,88513,Month-to-Month,DSL,UPI,No
+265,36,Male,2,4438,192003,One Year,None,Debit Card,No
+266,43,Female,8,2287,269480,Two Year,None,Credit Card,No
+267,20,Female,5,2757,272043,Month-to-Month,None,Cash,Yes
+268,36,Male,1,1638,201758,Two Year,DSL,UPI,Yes
+269,37,Male,3,4308,143498,Month-to-Month,Fiber,UPI,Yes
+270,49,Male,10,2954,264024,Month-to-Month,None,Cash,Yes
+271,24,Female,8,1966,140970,Month-to-Month,None,Cash,No
+272,69,Male,4,4174,100009,Month-to-Month,Fiber,Credit Card,Yes
+273,58,Female,7,1877,209570,One Year,None,Credit Card,Yes
+274,50,Female,10,3097,207467,One Year,DSL,UPI,Yes
+275,57,Female,2,641,54816,Month-to-Month,None,Credit Card,No
+276,56,Male,7,3159,14138,Two Year,None,Debit Card,No
+277,35,Male,5,1339,101176,Month-to-Month,Fiber,Credit Card,No
+278,57,Female,5,4118,276161,One Year,None,Credit Card,Yes
+279,18,Male,6,4417,282595,Two Year,None,UPI,No
+280,28,Male,9,1095,204028,One Year,DSL,Debit Card,Yes
+281,45,Male,6,2404,282422,One Year,Fiber,Credit Card,Yes
+282,42,Female,8,780,231552,Two Year,Fiber,Debit Card,Yes
+283,67,Female,7,923,53764,Month-to-Month,DSL,Debit Card,No
+284,40,Male,9,4865,133030,Month-to-Month,None,Debit Card,No
+285,48,Female,4,4749,105667,Month-to-Month,Fiber,Cash,Yes
+286,47,Male,2,2250,70128,Month-to-Month,Fiber,Cash,Yes
+287,59,Male,7,2467,229128,Two Year,None,Cash,No
+288,52,Male,6,4588,294013,Two Year,None,Cash,No
+289,24,Male,1,4678,243540,Two Year,Fiber,UPI,No
+290,33,Female,9,3446,15039,One Year,None,Credit Card,Yes
+291,43,Female,9,1949,162353,Two Year,Fiber,Cash,Yes
+292,65,Female,2,2831,122935,Month-to-Month,None,UPI,Yes
+293,69,Male,3,2720,20442,One Year,None,Credit Card,No
+294,66,Male,5,4289,299730,Month-to-Month,DSL,Cash,No
+295,19,Male,5,3310,63053,Month-to-Month,None,Credit Card,No
+296,18,Female,1,2031,191561,Two Year,DSL,Cash,Yes
+297,65,Male,8,3490,224176,Two Year,None,UPI,Yes
+298,29,Female,8,4993,96346,Month-to-Month,Fiber,Debit Card,No
+299,22,Female,4,1643,44397,Month-to-Month,Fiber,Debit Card,Yes
+300,54,Female,7,1433,126214,One Year,None,Credit Card,No
+301,49,Female,10,1960,167221,Two Year,None,UPI,Yes
+302,26,Female,3,3223,287068,One Year,Fiber,Debit Card,No
+303,58,Female,6,3012,123143,One Year,None,Cash,Yes
+304,52,Male,10,785,273013,One Year,DSL,Debit Card,Yes
+305,36,Male,10,764,273158,Month-to-Month,DSL,Credit Card,No
+306,65,Female,9,2867,20103,One Year,DSL,Credit Card,No
+307,33,Female,1,3947,92409,One Year,DSL,UPI,No
+308,20,Male,5,2262,33248,Month-to-Month,DSL,Credit Card,No
+309,37,Female,4,3548,184588,Two Year,None,Debit Card,No
+310,41,Female,8,2881,165242,Two Year,None,Debit Card,Yes
+311,50,Male,1,2769,18024,One Year,DSL,Debit Card,No
+312,41,Female,9,540,244864,Month-to-Month,None,Debit Card,No
+313,69,Female,6,567,184875,Two Year,None,UPI,No
+314,28,Female,4,1487,153927,One Year,DSL,Cash,Yes
+315,66,Male,9,4508,95178,One Year,None,Cash,No
+316,25,Male,5,3698,292169,Month-to-Month,None,UPI,No
+317,53,Male,5,3024,73610,One Year,None,Credit Card,No
+318,55,Female,5,1585,80843,Two Year,DSL,Cash,Yes
+319,57,Female,1,2979,117237,Month-to-Month,None,Credit Card,Yes
+320,37,Male,1,2193,190903,Two Year,Fiber,Cash,No
+321,52,Female,8,2815,184499,Two Year,Fiber,Credit Card,Yes
+322,65,Female,8,1278,140299,Two Year,DSL,UPI,No
+323,42,Female,6,2085,15668,One Year,Fiber,Debit Card,Yes
+324,52,Female,4,1992,232542,One Year,DSL,Credit Card,No
+325,42,Female,2,1160,188267,Two Year,Fiber,Debit Card,Yes
+326,46,Male,2,1848,165489,Two Year,Fiber,Credit Card,No
+327,35,Female,9,1799,116133,Month-to-Month,Fiber,Credit Card,No
+328,63,Male,5,4440,282895,Month-to-Month,DSL,Credit Card,Yes
+329,35,Female,4,2486,279496,One Year,DSL,Credit Card,No
+330,19,Male,10,2544,220124,One Year,None,Credit Card,No
+331,52,Female,1,4016,98835,Month-to-Month,DSL,Debit Card,No
+332,33,Male,7,1558,107493,Two Year,Fiber,Credit Card,No
+333,58,Female,3,1476,182166,One Year,Fiber,Debit Card,Yes
+334,53,Male,6,1227,111948,Two Year,DSL,UPI,No
+335,50,Female,5,3027,195194,Month-to-Month,DSL,Cash,Yes
+336,21,Male,5,3636,39493,One Year,DSL,Credit Card,Yes
+337,50,Female,5,842,209886,One Year,None,Cash,Yes
+338,31,Male,1,1947,148368,Month-to-Month,Fiber,Debit Card,Yes
+339,38,Male,1,2879,166470,One Year,None,UPI,No
+340,65,Female,3,4159,23261,Month-to-Month,None,UPI,No
+341,37,Female,10,1026,86709,One Year,Fiber,UPI,Yes
+342,25,Male,4,2396,105985,Month-to-Month,Fiber,Cash,No
+343,24,Female,5,2573,285796,One Year,DSL,Debit Card,Yes
+344,20,Male,2,905,277247,Two Year,DSL,Credit Card,No
+345,34,Male,8,2073,297644,Two Year,None,Credit Card,No
+346,50,Male,2,4240,256404,Two Year,DSL,Debit Card,No
+347,65,Female,9,4774,110336,One Year,DSL,Cash,Yes
+348,29,Male,2,4727,123499,One Year,Fiber,Credit Card,Yes
+349,68,Male,9,2346,159524,Two Year,Fiber,Debit Card,No
+350,39,Female,7,1978,176508,Two Year,DSL,Credit Card,Yes
+351,39,Female,8,2895,157026,Month-to-Month,Fiber,UPI,Yes
+352,63,Female,2,1271,260819,Month-to-Month,DSL,Credit Card,No
+353,47,Female,7,1078,22356,Month-to-Month,Fiber,Cash,Yes
+354,55,Male,6,3401,138128,Two Year,Fiber,Debit Card,No
+355,55,Male,4,693,12187,Two Year,Fiber,Cash,No
+356,62,Male,7,2507,162297,Two Year,Fiber,Debit Card,No
+357,68,Male,4,1685,144678,Month-to-Month,DSL,UPI,Yes
+358,25,Female,2,2894,136270,One Year,None,Debit Card,No
+359,44,Male,10,3498,286531,Two Year,Fiber,Credit Card,No
+360,44,Male,7,2292,252998,One Year,DSL,Credit Card,Yes
+361,51,Female,8,1610,251503,One Year,DSL,UPI,Yes
+362,38,Male,2,4505,72061,One Year,Fiber,Debit Card,Yes
+363,47,Male,5,2761,245497,Month-to-Month,None,UPI,Yes
+364,50,Male,1,4236,91257,One Year,Fiber,Credit Card,No
+365,45,Male,7,4293,71753,Two Year,DSL,Cash,Yes
+366,64,Male,8,2436,33408,Month-to-Month,None,UPI,Yes
+367,50,Male,6,4857,134116,Two Year,DSL,Cash,Yes
+368,22,Female,5,1229,141208,Two Year,Fiber,Cash,Yes
+369,65,Female,6,4878,27413,Month-to-Month,None,Debit Card,No
+370,36,Male,2,3951,123650,Two Year,DSL,UPI,Yes
+371,21,Male,1,4957,69500,Two Year,DSL,Cash,No
+372,52,Female,7,2640,66358,Month-to-Month,DSL,Cash,Yes
+373,66,Male,7,2144,76197,Two Year,Fiber,Debit Card,No
+374,34,Male,10,3300,233861,One Year,None,Debit Card,No
+375,61,Male,10,641,233492,Two Year,Fiber,Credit Card,Yes
+376,45,Female,2,1955,271545,One Year,Fiber,Cash,No
+377,47,Male,2,2596,86240,Two Year,Fiber,Credit Card,Yes
+378,46,Female,1,1825,245595,Month-to-Month,None,Cash,No
+379,63,Male,10,1713,231135,Month-to-Month,Fiber,Credit Card,No
+380,23,Female,8,1659,288466,Two Year,Fiber,Debit Card,No
+381,52,Female,8,4999,16968,Month-to-Month,Fiber,UPI,Yes
+382,58,Male,1,840,299662,Two Year,Fiber,Debit Card,No
+383,54,Female,8,4328,200920,Month-to-Month,DSL,Credit Card,Yes
+384,41,Male,9,2468,273844,One Year,Fiber,Credit Card,No
+385,46,Female,4,1203,242076,Two Year,DSL,UPI,No
+386,66,Male,1,4913,33199,One Year,Fiber,Cash,No
+387,63,Male,1,2929,173187,One Year,None,Credit Card,No
+388,48,Female,3,2300,195388,Two Year,DSL,Credit Card,No
+389,52,Male,5,1355,15520,One Year,DSL,Credit Card,No
+390,50,Male,5,2312,119814,Two Year,DSL,UPI,Yes
+391,69,Female,9,3366,177527,One Year,DSL,Debit Card,Yes
+392,38,Male,10,4142,256356,Two Year,None,Credit Card,Yes
+393,49,Male,2,682,133364,Two Year,Fiber,UPI,No
+394,40,Female,2,3612,24955,Month-to-Month,DSL,Credit Card,Yes
+395,50,Female,6,4992,185121,Two Year,None,Cash,No
+396,20,Male,9,2017,154989,Two Year,DSL,UPI,Yes
+397,35,Male,1,1856,260144,One Year,Fiber,Credit Card,Yes
+398,42,Female,9,2674,74925,Two Year,DSL,UPI,No
+399,59,Female,9,4129,80269,Month-to-Month,None,Credit Card,No
+400,48,Male,9,4128,162185,One Year,Fiber,Debit Card,Yes
+401,20,Female,5,4596,109977,One Year,None,Credit Card,Yes
+402,57,Male,9,3739,39345,Month-to-Month,Fiber,UPI,Yes
+403,63,Male,4,4191,265688,One Year,Fiber,Cash,Yes
+404,41,Male,2,518,271798,One Year,Fiber,Cash,No
+405,67,Male,6,3903,188933,One Year,DSL,Cash,Yes
+406,49,Male,4,3504,107406,One Year,None,Credit Card,No
+407,64,Female,6,1632,13453,Month-to-Month,None,Debit Card,No
+408,39,Female,3,3839,112811,Month-to-Month,None,Credit Card,Yes
+409,40,Female,6,3811,64935,One Year,Fiber,Cash,No
+410,19,Female,2,3872,184442,One Year,DSL,UPI,Yes
+411,44,Male,2,1487,280472,Month-to-Month,Fiber,Cash,No
+412,59,Male,9,3821,25534,Month-to-Month,None,UPI,No
+413,19,Male,7,673,46320,Month-to-Month,DSL,Debit Card,Yes
+414,43,Male,3,4241,59170,One Year,DSL,UPI,No
+415,34,Female,1,3552,110546,One Year,DSL,Credit Card,No
+416,57,Male,8,1226,90201,Two Year,None,Credit Card,Yes
+417,50,Male,6,4260,244473,Month-to-Month,DSL,Credit Card,No
+418,26,Female,7,2375,280784,One Year,DSL,UPI,No
+419,60,Female,9,4533,241324,Month-to-Month,Fiber,Credit Card,Yes
+420,65,Female,5,1489,171121,One Year,Fiber,Credit Card,Yes
+421,56,Female,1,4244,243612,Month-to-Month,DSL,Credit Card,No
+422,46,Male,10,3186,197125,One Year,DSL,Debit Card,No
+423,59,Male,7,919,210796,Two Year,Fiber,UPI,No
+424,43,Female,5,1093,153279,Two Year,Fiber,UPI,Yes
+425,52,Male,3,2274,206846,Month-to-Month,Fiber,Cash,No
+426,67,Male,9,2959,174044,One Year,None,UPI,No
+427,42,Male,1,1435,212160,One Year,None,Debit Card,No
+428,41,Female,1,4308,80463,Month-to-Month,Fiber,UPI,No
+429,30,Male,1,831,103500,One Year,DSL,Debit Card,No
+430,24,Female,3,3949,217772,Month-to-Month,Fiber,Debit Card,No
+431,53,Male,6,3202,47158,One Year,None,UPI,Yes
+432,62,Male,10,4506,94607,Month-to-Month,DSL,Cash,Yes
+433,37,Male,3,4368,255017,One Year,None,Credit Card,No
+434,18,Female,8,4700,130076,Month-to-Month,DSL,Credit Card,No
+435,25,Male,10,701,68692,One Year,None,UPI,Yes
+436,63,Female,2,2997,140841,Two Year,DSL,UPI,Yes
+437,33,Female,9,2342,202816,One Year,DSL,Debit Card,Yes
+438,31,Female,3,2366,287954,Month-to-Month,DSL,UPI,No
+439,29,Male,5,2496,171081,Two Year,DSL,Debit Card,No
+440,68,Male,10,1409,121718,One Year,None,Cash,No
+441,40,Male,8,4805,10192,Two Year,None,UPI,No
+442,32,Male,2,3689,257536,One Year,DSL,Credit Card,Yes
+443,45,Female,6,1270,46413,Two Year,DSL,Credit Card,Yes
+444,51,Female,5,3655,153888,Month-to-Month,None,UPI,Yes
+445,19,Female,10,3001,49082,One Year,DSL,Debit Card,Yes
+446,49,Male,9,3214,133130,One Year,DSL,Credit Card,No
+447,40,Female,5,4085,60940,Month-to-Month,DSL,Debit Card,No
+448,39,Male,2,2128,173202,Two Year,Fiber,UPI,Yes
+449,68,Female,5,886,50142,Month-to-Month,DSL,UPI,Yes
+450,42,Male,4,3921,46468,Month-to-Month,Fiber,Credit Card,Yes
+451,39,Male,7,4508,151727,Two Year,DSL,UPI,Yes
+452,39,Female,6,4593,188969,Month-to-Month,None,Cash,Yes
+453,66,Female,2,4863,246187,One Year,Fiber,Cash,No
+454,69,Female,5,2966,52056,One Year,Fiber,Credit Card,No
+455,59,Female,7,2782,61831,One Year,DSL,Cash,Yes
+456,23,Male,7,2356,259664,Month-to-Month,DSL,Debit Card,Yes
+457,32,Female,5,2498,118117,One Year,Fiber,Credit Card,Yes
+458,60,Female,9,1736,286815,One Year,None,Credit Card,No
+459,54,Female,4,4644,299192,One Year,None,Debit Card,No
+460,50,Male,3,1650,298107,One Year,DSL,Cash,No
+461,25,Male,4,4818,53954,One Year,None,Cash,Yes
+462,61,Female,5,1931,243192,One Year,None,Cash,No
+463,61,Male,6,2319,10717,Month-to-Month,DSL,Credit Card,Yes
+464,22,Female,3,2824,283820,One Year,None,Credit Card,No
+465,56,Male,2,1630,190882,One Year,DSL,Cash,No
+466,21,Male,4,3158,128696,Two Year,Fiber,UPI,No
+467,23,Male,5,4000,14994,Month-to-Month,DSL,Cash,Yes
+468,62,Male,4,874,276378,Month-to-Month,Fiber,Debit Card,Yes
+469,49,Female,3,2620,79300,Month-to-Month,Fiber,Credit Card,No
+470,69,Female,8,4520,47405,Month-to-Month,None,Debit Card,Yes
+471,47,Female,10,2521,33185,One Year,None,Debit Card,Yes
+472,64,Male,4,4205,184514,One Year,None,Credit Card,Yes
+473,52,Female,2,3759,143653,Two Year,DSL,UPI,Yes
+474,57,Female,2,3935,61717,Two Year,None,Cash,Yes
+475,69,Female,1,2389,12763,Month-to-Month,Fiber,Debit Card,Yes
+476,33,Male,4,2323,65480,Two Year,None,Credit Card,Yes
+477,30,Male,10,1974,179831,Two Year,None,Debit Card,No
+478,67,Male,9,2742,217139,Month-to-Month,DSL,Cash,Yes
+479,59,Female,7,3743,128094,Month-to-Month,DSL,UPI,Yes
+480,47,Female,10,3634,166379,Two Year,Fiber,UPI,No
+481,36,Female,7,2570,237443,One Year,DSL,UPI,No
+482,34,Male,7,859,21064,Two Year,None,Credit Card,No
+483,36,Male,8,2541,86848,Two Year,DSL,Credit Card,No
+484,45,Female,1,1641,47548,One Year,Fiber,UPI,Yes
+485,43,Male,10,2135,178017,One Year,None,Cash,No
+486,54,Male,10,4500,278620,Month-to-Month,Fiber,Cash,No
+487,43,Male,8,2443,12382,Month-to-Month,DSL,Credit Card,Yes
+488,40,Male,4,3861,186348,Two Year,DSL,UPI,Yes
+489,26,Female,4,3480,89698,One Year,Fiber,Cash,Yes
+490,29,Male,4,506,255762,Month-to-Month,None,Cash,No
+491,18,Male,6,3767,253381,Two Year,DSL,Cash,Yes
+492,18,Male,7,2091,55095,One Year,DSL,Credit Card,No
+493,64,Male,6,3764,299341,Two Year,None,UPI,Yes
+494,51,Female,1,3106,32010,Month-to-Month,DSL,Debit Card,Yes
+495,49,Female,8,3719,143962,Month-to-Month,Fiber,UPI,No
+496,65,Male,10,3773,119162,One Year,DSL,UPI,Yes
+497,42,Male,7,1413,280170,Two Year,DSL,Credit Card,Yes
+498,57,Male,6,2511,78842,One Year,None,Cash,Yes
+499,62,Male,6,1942,281421,Month-to-Month,Fiber,Cash,Yes
+500,18,Male,5,3554,183311,Month-to-Month,None,Credit Card,Yes
+501,33,Male,6,4046,286827,Two Year,DSL,Credit Card,No
+502,56,Female,9,4721,141742,Two Year,DSL,Credit Card,No
+503,22,Male,10,3428,230283,Two Year,None,Credit Card,Yes
+504,39,Female,9,2329,158961,One Year,None,Credit Card,No
+505,46,Female,10,1075,185607,Two Year,None,Debit Card,No
+506,20,Male,8,1429,255144,Two Year,Fiber,UPI,No
+507,29,Female,10,4259,162711,Month-to-Month,DSL,UPI,Yes
+508,43,Female,9,4199,205784,Month-to-Month,None,UPI,Yes
+509,33,Female,10,1963,262217,Two Year,DSL,Cash,Yes
+510,68,Female,8,3775,173244,Two Year,Fiber,Debit Card,No
+511,54,Female,8,1554,111158,Month-to-Month,Fiber,UPI,No
+512,39,Female,1,2400,283721,Two Year,Fiber,Cash,Yes
+513,46,Male,10,1957,292320,One Year,Fiber,Debit Card,Yes
+514,31,Female,5,1899,73972,One Year,DSL,Debit Card,No
+515,45,Female,4,3915,292140,One Year,Fiber,Cash,No
+516,22,Female,2,942,110922,Two Year,Fiber,Debit Card,Yes
+517,64,Male,8,4150,45931,Month-to-Month,None,Cash,No
+518,66,Female,3,1678,134168,Two Year,Fiber,UPI,No
+519,47,Male,4,4958,176782,Two Year,None,Cash,No
+520,63,Female,7,1757,133099,Month-to-Month,Fiber,Debit Card,No
+521,69,Male,10,4134,44693,Month-to-Month,Fiber,UPI,No
+522,22,Male,9,2341,118944,Month-to-Month,None,UPI,No
+523,29,Female,2,2809,234655,One Year,Fiber,Credit Card,No
+524,33,Female,3,1410,217574,Two Year,DSL,Credit Card,Yes
+525,43,Male,4,4840,289518,Month-to-Month,DSL,Debit Card,Yes
+526,43,Female,10,4509,257572,Two Year,Fiber,Cash,No
+527,65,Male,1,2669,55913,One Year,DSL,Cash,No
+528,38,Male,7,2672,207097,One Year,None,Debit Card,No
+529,56,Male,2,623,97796,Month-to-Month,Fiber,UPI,Yes
+530,53,Male,5,3658,298213,Month-to-Month,Fiber,Debit Card,Yes
+531,50,Male,1,1285,94811,Two Year,None,Debit Card,No
+532,47,Female,3,2916,200121,Month-to-Month,None,UPI,Yes
+533,54,Male,2,1296,242892,Two Year,None,Cash,No
+534,40,Male,1,4672,49178,Month-to-Month,Fiber,Debit Card,No
+535,27,Female,7,4654,26999,Two Year,None,Cash,No
+536,22,Male,5,2436,205623,Two Year,None,Debit Card,No
+537,53,Female,1,2656,181244,Two Year,DSL,UPI,No
+538,51,Female,6,4307,282769,Two Year,DSL,UPI,No
+539,69,Female,5,1801,208237,One Year,Fiber,Credit Card,No
+540,48,Male,3,4663,16859,Two Year,DSL,UPI,Yes
+541,27,Male,7,3640,120986,Month-to-Month,DSL,Credit Card,No
+542,36,Male,10,3736,242654,One Year,None,Debit Card,Yes
+543,49,Female,9,2852,293983,One Year,None,Cash,No
+544,18,Male,9,2432,299360,Two Year,DSL,UPI,No
+545,22,Female,9,3221,59522,One Year,DSL,UPI,Yes
+546,62,Male,2,864,240233,Two Year,DSL,UPI,Yes
+547,21,Female,3,2890,17485,Month-to-Month,Fiber,Debit Card,No
+548,33,Male,7,1446,253056,Two Year,Fiber,Credit Card,Yes
+549,41,Male,5,1877,122701,One Year,Fiber,Debit Card,No
+550,33,Male,2,1939,217352,Month-to-Month,DSL,Cash,No
+551,19,Female,3,3680,112638,Two Year,DSL,Debit Card,Yes
+552,66,Female,10,840,194514,Month-to-Month,Fiber,Cash,Yes
+553,45,Male,6,3489,284370,Month-to-Month,Fiber,UPI,Yes
+554,49,Male,7,882,103405,One Year,DSL,Cash,Yes
+555,44,Female,9,2056,294732,Month-to-Month,None,Cash,No
+556,37,Female,1,799,220048,One Year,Fiber,Credit Card,Yes
+557,41,Female,7,638,172781,Month-to-Month,DSL,Cash,Yes
+558,29,Male,8,858,47019,Two Year,DSL,Cash,Yes
+559,67,Female,3,2022,271497,Month-to-Month,None,Debit Card,Yes
+560,52,Male,4,3956,75133,Two Year,DSL,UPI,Yes
+561,50,Female,10,2127,207530,Two Year,DSL,Debit Card,No
+562,50,Male,6,1803,168598,Month-to-Month,Fiber,Debit Card,No
+563,68,Female,10,1634,138585,Two Year,Fiber,UPI,Yes
+564,60,Female,7,2686,255172,Month-to-Month,None,UPI,Yes
+565,54,Female,4,3670,135814,Month-to-Month,None,Cash,No
+566,29,Female,8,4335,35939,Two Year,DSL,Cash,Yes
+567,20,Female,5,2651,163939,Two Year,Fiber,Credit Card,No
+568,18,Male,1,1737,272347,One Year,None,Debit Card,No
+569,50,Female,4,4235,100880,Two Year,None,UPI,Yes
+570,57,Female,3,3334,13748,One Year,None,Cash,No
+571,27,Female,9,4760,246094,Two Year,DSL,UPI,Yes
+572,60,Male,8,1498,161956,Month-to-Month,Fiber,Cash,Yes
+573,61,Female,1,3067,166255,Two Year,None,Credit Card,No
+574,46,Male,6,1807,160331,Month-to-Month,Fiber,Credit Card,No
+575,30,Female,9,1156,177031,Month-to-Month,None,UPI,Yes
+576,29,Female,7,3160,135829,Month-to-Month,None,Credit Card,No
+577,48,Male,4,2711,138216,One Year,Fiber,UPI,Yes
+578,63,Female,1,2409,75901,Two Year,Fiber,Cash,No
+579,19,Male,2,4230,253386,Month-to-Month,Fiber,Debit Card,No
+580,68,Male,5,2546,185607,Month-to-Month,DSL,Credit Card,Yes
+581,67,Female,5,3662,108046,One Year,None,Cash,Yes
+582,52,Male,8,1640,88278,Two Year,DSL,Debit Card,Yes
+583,40,Female,6,766,284535,Two Year,Fiber,Debit Card,No
+584,34,Female,8,2345,112476,One Year,None,Debit Card,Yes
+585,43,Male,2,2208,107537,One Year,DSL,Cash,Yes
+586,25,Male,3,4130,191429,Two Year,None,Cash,No
+587,46,Male,6,3711,227980,One Year,DSL,UPI,No
+588,43,Male,10,2793,85403,Two Year,Fiber,Debit Card,Yes
+589,27,Female,3,4232,74286,Two Year,DSL,Debit Card,Yes
+590,43,Female,6,4329,114927,Month-to-Month,None,Debit Card,Yes
+591,51,Male,6,2010,287052,Month-to-Month,None,UPI,Yes
+592,68,Female,2,975,33386,Two Year,None,Debit Card,No
+593,58,Female,7,1476,187826,Two Year,None,Cash,No
+594,24,Female,2,1707,262156,Two Year,Fiber,Debit Card,Yes
+595,21,Female,6,2460,258724,Two Year,DSL,Credit Card,Yes
+596,67,Male,1,1057,211202,Two Year,Fiber,Cash,Yes
+597,62,Male,3,1382,35525,Two Year,Fiber,UPI,No
+598,28,Female,2,2694,89818,One Year,Fiber,Debit Card,Yes
+599,46,Male,7,3167,124589,Two Year,None,Credit Card,Yes
+600,53,Male,4,2110,155406,One Year,None,UPI,No
+601,42,Male,8,3988,104715,One Year,None,UPI,No
+602,38,Female,6,2954,203839,Two Year,DSL,Cash,Yes
+603,53,Female,10,4994,278788,Two Year,None,UPI,Yes
+604,27,Female,4,2446,267438,One Year,DSL,UPI,No
+605,54,Male,5,3308,177679,One Year,None,UPI,Yes
+606,26,Female,9,4325,93178,Two Year,None,UPI,Yes
+607,41,Female,7,4036,185458,Two Year,Fiber,Debit Card,No
+608,52,Male,10,4302,264466,One Year,Fiber,Debit Card,No
+609,66,Female,9,4677,96724,One Year,Fiber,Debit Card,No
+610,52,Female,7,2470,239204,One Year,DSL,Debit Card,Yes
+611,65,Male,1,4322,106393,Month-to-Month,DSL,Credit Card,No
+612,53,Male,8,3319,86312,One Year,None,Debit Card,No
+613,35,Male,4,1402,81196,Month-to-Month,DSL,UPI,Yes
+614,66,Female,3,864,80014,Two Year,None,Debit Card,Yes
+615,56,Female,7,4758,151994,Two Year,DSL,Debit Card,No
+616,49,Female,3,3619,43340,One Year,DSL,Cash,No
+617,41,Male,8,3058,123711,Two Year,DSL,UPI,Yes
+618,40,Male,6,2363,225250,Two Year,Fiber,Debit Card,Yes
+619,49,Female,5,615,21094,Two Year,DSL,Debit Card,No
+620,54,Female,4,2884,277885,Two Year,Fiber,Debit Card,No
+621,29,Male,8,4435,121585,Month-to-Month,Fiber,Credit Card,Yes
+622,66,Male,8,2990,78798,Month-to-Month,DSL,Debit Card,No
+623,30,Male,1,1442,211604,One Year,None,Cash,Yes
+624,40,Male,9,2224,120130,One Year,None,UPI,No
+625,42,Female,5,2834,294308,One Year,None,UPI,Yes
+626,52,Male,4,3267,176667,Two Year,DSL,Debit Card,Yes
+627,58,Female,6,1637,40257,Two Year,None,Debit Card,No
+628,47,Female,6,3027,62691,Month-to-Month,Fiber,Debit Card,No
+629,34,Female,2,4617,89768,Month-to-Month,None,UPI,Yes
+630,66,Male,8,3920,24026,One Year,DSL,UPI,No
+631,37,Male,7,4406,235162,Month-to-Month,None,Credit Card,No
+632,65,Male,1,4137,29610,Month-to-Month,Fiber,Cash,No
+633,42,Male,5,3453,187718,Month-to-Month,DSL,Credit Card,Yes
+634,39,Female,6,2867,188646,Month-to-Month,None,Cash,No
+635,30,Male,4,4721,232123,Month-to-Month,DSL,Credit Card,No
+636,36,Male,2,776,29288,One Year,DSL,UPI,Yes
+637,66,Female,4,2499,94425,One Year,DSL,Credit Card,No
+638,53,Male,1,1727,10917,Month-to-Month,None,Cash,No
+639,29,Female,7,4252,263187,One Year,DSL,Debit Card,Yes
+640,58,Female,2,4235,49104,Two Year,None,Cash,Yes
+641,36,Female,2,1195,159134,Month-to-Month,Fiber,Debit Card,No
+642,29,Female,9,1809,289143,Two Year,None,UPI,No
+643,26,Female,5,4652,272091,One Year,Fiber,Cash,Yes
+644,24,Female,2,3734,71169,One Year,None,Credit Card,Yes
+645,45,Female,9,4614,164542,Two Year,DSL,Cash,No
+646,31,Female,9,2811,139744,One Year,None,Debit Card,No
+647,48,Male,1,3341,69821,Month-to-Month,DSL,UPI,No
+648,69,Male,3,4708,227741,Two Year,Fiber,Credit Card,Yes
+649,36,Male,4,4059,259265,Month-to-Month,None,Cash,No
+650,64,Male,7,3898,224127,Two Year,DSL,Debit Card,Yes
+651,33,Female,10,1041,284336,One Year,Fiber,Credit Card,Yes
+652,22,Male,4,3194,213834,Two Year,Fiber,UPI,Yes
+653,52,Female,2,1588,244538,Two Year,None,Credit Card,No
+654,29,Male,7,3863,96795,Month-to-Month,Fiber,UPI,No
+655,42,Male,6,524,175159,One Year,DSL,Credit Card,No
+656,69,Male,3,2072,145699,Month-to-Month,Fiber,Cash,Yes
+657,38,Female,6,3458,253877,One Year,Fiber,Debit Card,No
+658,53,Male,6,4736,209298,Month-to-Month,DSL,Cash,Yes
+659,40,Female,5,2267,198505,Two Year,Fiber,Cash,Yes
+660,33,Female,4,2735,146285,Month-to-Month,Fiber,UPI,Yes
+661,56,Male,10,700,112412,One Year,Fiber,UPI,Yes
+662,62,Male,1,3698,29404,One Year,Fiber,UPI,Yes
+663,59,Male,10,756,126545,Two Year,DSL,Cash,Yes
+664,56,Female,6,4247,232128,One Year,Fiber,Credit Card,No
+665,31,Male,2,2741,160245,Month-to-Month,DSL,Credit Card,Yes
+666,48,Female,3,3675,194099,Two Year,Fiber,Cash,No
+667,22,Female,8,4106,296133,One Year,Fiber,Cash,Yes
+668,52,Male,10,3836,271657,One Year,Fiber,Debit Card,No
+669,40,Male,6,913,296663,Month-to-Month,Fiber,UPI,No
+670,46,Female,3,2514,266875,Month-to-Month,DSL,UPI,No
+671,60,Female,7,1881,294583,Two Year,DSL,Cash,No
+672,28,Female,4,1598,24995,One Year,DSL,Cash,Yes
+673,35,Male,9,3926,33559,Month-to-Month,None,Credit Card,Yes
+674,64,Female,5,4155,108000,Two Year,Fiber,Cash,Yes
+675,29,Male,3,1409,162191,One Year,Fiber,Credit Card,Yes
+676,26,Female,2,687,35517,One Year,DSL,Cash,No
+677,27,Female,2,4544,225558,Two Year,None,Debit Card,No
+678,61,Male,3,4256,115686,Two Year,Fiber,Debit Card,No
+679,34,Female,2,2515,98151,Month-to-Month,DSL,Credit Card,Yes
+680,55,Male,4,2592,275471,One Year,Fiber,UPI,No
+681,24,Male,2,4144,130318,One Year,Fiber,Debit Card,Yes
+682,63,Female,10,2630,205490,One Year,DSL,Credit Card,No
+683,30,Male,9,857,183860,Two Year,DSL,Cash,No
+684,57,Male,2,2922,125945,Month-to-Month,Fiber,Cash,No
+685,59,Female,9,4757,223456,One Year,Fiber,Credit Card,No
+686,26,Male,6,1997,62446,Two Year,DSL,UPI,No
+687,67,Male,1,2658,197655,One Year,Fiber,Credit Card,Yes
+688,44,Male,4,3055,150148,Month-to-Month,Fiber,Credit Card,No
+689,19,Female,1,2842,79341,One Year,DSL,Debit Card,Yes
+690,22,Male,6,3451,41085,Month-to-Month,Fiber,Credit Card,Yes
+691,46,Female,4,1738,15750,Month-to-Month,Fiber,Credit Card,Yes
+692,54,Female,3,1473,45903,One Year,None,Cash,Yes
+693,55,Male,3,4465,213561,One Year,DSL,Debit Card,Yes
+694,36,Male,9,1550,101036,Month-to-Month,None,Cash,Yes
+695,25,Male,6,4201,97954,Two Year,None,Cash,Yes
+696,65,Female,9,3280,127305,Month-to-Month,None,UPI,Yes
+697,62,Male,5,2088,210753,One Year,Fiber,UPI,No
+698,18,Male,2,4378,42101,One Year,Fiber,Debit Card,No
+699,39,Male,8,2868,12775,Two Year,None,Debit Card,Yes
+700,69,Male,5,936,121497,Month-to-Month,None,UPI,Yes
+701,34,Male,2,3328,55619,Month-to-Month,None,UPI,Yes
+702,24,Female,4,2056,262388,Month-to-Month,Fiber,UPI,No
+703,42,Female,9,4358,243346,One Year,None,UPI,No
+704,62,Male,4,1804,75149,Month-to-Month,None,UPI,Yes
+705,21,Male,4,2884,36616,Two Year,DSL,Cash,Yes
+706,53,Male,2,682,231767,One Year,DSL,Debit Card,No
+707,23,Male,6,2089,195639,One Year,Fiber,Cash,No
+708,48,Female,2,2087,178171,Month-to-Month,DSL,Cash,Yes
+709,36,Male,7,1159,216903,Two Year,DSL,Credit Card,Yes
+710,61,Female,3,659,241318,One Year,DSL,Cash,Yes
+711,56,Female,3,4453,297623,One Year,Fiber,UPI,Yes
+712,44,Male,5,1511,65863,Month-to-Month,DSL,UPI,No
+713,27,Female,3,552,183115,Month-to-Month,Fiber,Credit Card,No
+714,43,Female,2,2807,263347,Two Year,None,Credit Card,Yes
+715,36,Female,10,1728,199052,Month-to-Month,DSL,Credit Card,Yes
+716,56,Female,9,1535,288495,Two Year,Fiber,Credit Card,Yes
+717,20,Male,2,4202,145203,One Year,DSL,Credit Card,No
+718,62,Male,2,4545,257908,Two Year,None,Cash,Yes
+719,30,Female,8,4949,283493,Two Year,Fiber,Credit Card,Yes
+720,67,Male,9,1764,202003,Two Year,Fiber,Cash,Yes
+721,45,Male,7,2384,284597,One Year,Fiber,Debit Card,No
+722,37,Male,3,2309,159886,Month-to-Month,None,Credit Card,Yes
+723,45,Male,9,3667,159335,One Year,None,Credit Card,No
+724,25,Male,3,4297,87694,Month-to-Month,None,Cash,Yes
+725,58,Female,5,2841,25735,Two Year,Fiber,Debit Card,Yes
+726,56,Male,9,3914,185745,Two Year,None,Cash,Yes
+727,18,Male,3,1317,230534,Two Year,DSL,Cash,No
+728,20,Male,7,2937,55066,Two Year,None,Credit Card,Yes
+729,30,Male,1,1388,241387,Two Year,Fiber,UPI,Yes
+730,45,Female,4,1167,144445,Month-to-Month,DSL,UPI,No
+731,66,Female,4,3124,282836,Month-to-Month,None,Cash,No
+732,42,Female,7,4732,55541,Two Year,DSL,Credit Card,No
+733,50,Female,8,1318,175129,One Year,DSL,Debit Card,Yes
+734,55,Male,1,2688,76983,One Year,Fiber,UPI,No
+735,23,Female,5,1606,160655,Two Year,DSL,Debit Card,Yes
+736,61,Male,7,2724,163837,Month-to-Month,DSL,UPI,No
+737,62,Male,4,697,200359,One Year,Fiber,Credit Card,No
+738,49,Male,4,3171,220747,One Year,Fiber,Cash,No
+739,62,Male,4,3992,187597,One Year,Fiber,Debit Card,Yes
+740,64,Male,6,2948,179302,Two Year,DSL,Debit Card,Yes
+741,38,Female,7,970,297710,One Year,DSL,Cash,Yes
+742,33,Female,2,2448,262084,One Year,DSL,Debit Card,Yes
+743,38,Female,5,4399,131015,One Year,Fiber,UPI,Yes
+744,28,Female,4,2510,182257,One Year,None,Cash,Yes
+745,54,Male,3,4300,256536,Month-to-Month,DSL,UPI,Yes
+746,53,Female,7,4618,234021,Two Year,None,UPI,Yes
+747,52,Male,6,4296,140956,Two Year,Fiber,Credit Card,Yes
+748,36,Female,7,4488,80744,Month-to-Month,DSL,UPI,No
+749,37,Male,5,734,83616,Month-to-Month,None,Credit Card,No
+750,35,Male,6,1428,97438,Two Year,DSL,Debit Card,Yes
+751,64,Female,5,4107,126841,One Year,DSL,Debit Card,Yes
+752,58,Male,7,1022,150558,One Year,DSL,Credit Card,Yes
+753,66,Male,2,4023,179934,Two Year,None,UPI,Yes
+754,31,Female,5,2129,262734,One Year,Fiber,Cash,No
+755,32,Male,6,1816,68870,Month-to-Month,DSL,Cash,No
+756,48,Female,6,3357,96694,One Year,Fiber,Credit Card,Yes
+757,18,Female,5,1624,247068,One Year,Fiber,Debit Card,No
+758,20,Female,10,3087,111407,One Year,None,Debit Card,No
+759,33,Male,7,1523,41379,Two Year,None,Cash,Yes
+760,40,Male,10,1878,246500,Month-to-Month,Fiber,Credit Card,Yes
+761,28,Male,8,3874,64353,One Year,DSL,Cash,Yes
+762,29,Female,7,2019,191068,Two Year,None,UPI,Yes
+763,27,Male,5,726,286175,One Year,DSL,UPI,No
+764,49,Female,1,1391,221144,Month-to-Month,DSL,Credit Card,Yes
+765,33,Female,5,4572,75982,One Year,DSL,Credit Card,No
+766,25,Male,10,2757,46683,Month-to-Month,Fiber,UPI,Yes
+767,55,Female,2,3288,124091,One Year,DSL,Debit Card,No
+768,29,Male,5,896,127797,Month-to-Month,Fiber,Credit Card,Yes
+769,41,Male,5,2578,16587,One Year,Fiber,UPI,Yes
+770,45,Male,2,4924,239602,Month-to-Month,DSL,UPI,No
+771,25,Male,5,3737,161599,One Year,DSL,Debit Card,No
+772,45,Male,4,4393,295713,One Year,DSL,Debit Card,No
+773,53,Female,1,2505,283295,Two Year,DSL,Debit Card,Yes
+774,43,Female,3,2516,200246,Two Year,Fiber,Debit Card,No
+775,25,Female,1,3671,54739,Month-to-Month,DSL,Cash,No
+776,67,Male,5,3168,42954,One Year,DSL,Debit Card,No
+777,45,Male,4,2378,253935,Month-to-Month,Fiber,Cash,No
+778,45,Male,7,1696,119373,Two Year,None,Credit Card,No
+779,54,Female,5,2272,44700,Month-to-Month,None,UPI,No
+780,58,Male,10,661,133728,Month-to-Month,Fiber,Cash,No
+781,53,Female,4,4476,81045,Two Year,None,Credit Card,No
+782,44,Female,2,2251,154972,One Year,Fiber,Credit Card,No
+783,34,Male,4,1275,11881,Month-to-Month,DSL,Cash,Yes
+784,26,Male,2,1439,292933,Two Year,DSL,Credit Card,Yes
+785,50,Female,8,3720,98059,One Year,None,Credit Card,No
+786,37,Male,3,1039,224566,Two Year,DSL,Cash,Yes
+787,30,Female,9,1961,119388,Month-to-Month,None,Credit Card,Yes
+788,45,Male,4,855,208303,One Year,None,Debit Card,No
+789,65,Male,6,4104,275406,One Year,DSL,Debit Card,No
+790,46,Female,10,3823,91972,Two Year,DSL,UPI,No
+791,30,Male,5,734,64722,Two Year,None,Credit Card,No
+792,63,Female,10,2048,191890,Two Year,DSL,UPI,No
+793,52,Male,1,2596,279045,One Year,Fiber,Debit Card,No
+794,23,Female,9,4713,127473,One Year,DSL,Debit Card,Yes
+795,35,Female,1,2601,280741,Month-to-Month,DSL,Debit Card,No
+796,68,Male,8,2173,225286,One Year,Fiber,Credit Card,Yes
+797,22,Female,9,2600,253896,Month-to-Month,DSL,Credit Card,No
+798,64,Male,9,4157,166877,Two Year,DSL,Debit Card,No
+799,42,Male,1,4096,21874,Two Year,None,UPI,Yes
+800,19,Male,2,4248,234137,One Year,DSL,UPI,No
+801,27,Female,1,3673,286223,Two Year,DSL,Cash,No
+802,47,Female,10,2315,105408,Two Year,Fiber,Debit Card,Yes
+803,67,Male,2,4341,130606,One Year,None,UPI,No
+804,62,Male,10,2505,130062,Month-to-Month,None,Debit Card,Yes
+805,22,Female,8,4993,22100,One Year,None,UPI,No
+806,50,Male,5,1174,160872,Month-to-Month,DSL,Cash,No
+807,18,Male,7,886,204472,One Year,None,Cash,Yes
+808,35,Female,2,2658,244196,One Year,Fiber,Debit Card,No
+809,49,Male,8,3161,217609,Two Year,None,UPI,Yes
+810,64,Female,6,2564,161014,One Year,Fiber,Credit Card,Yes
+811,66,Male,8,4351,293006,One Year,None,Cash,Yes
+812,28,Female,1,3753,283813,Month-to-Month,None,Debit Card,No
+813,38,Male,1,4766,194844,Two Year,Fiber,Debit Card,No
+814,43,Male,7,1239,288060,Month-to-Month,None,UPI,Yes
+815,42,Female,8,1901,283022,Month-to-Month,None,Debit Card,No
+816,39,Male,3,3759,275129,Two Year,None,Cash,No
+817,44,Female,5,2777,214720,Two Year,DSL,Debit Card,No
+818,66,Male,1,4404,51235,Two Year,Fiber,Debit Card,Yes
+819,30,Female,7,4423,291075,One Year,None,Credit Card,No
+820,50,Female,5,4714,102876,Two Year,Fiber,Credit Card,Yes
+821,51,Female,8,3727,10336,Two Year,Fiber,Cash,No
+822,58,Female,8,3331,79504,Two Year,Fiber,UPI,No
+823,52,Male,9,4258,109214,Month-to-Month,None,Credit Card,Yes
+824,18,Male,7,3012,192220,Month-to-Month,None,UPI,No
+825,38,Female,1,2651,123936,One Year,Fiber,Cash,Yes
+826,65,Female,3,4175,26279,Month-to-Month,DSL,Credit Card,No
+827,23,Female,8,3245,209737,One Year,Fiber,UPI,Yes
+828,45,Male,3,4366,113751,Month-to-Month,DSL,Credit Card,No
+829,34,Male,8,4264,81386,Two Year,Fiber,Cash,No
+830,22,Male,1,2722,96124,Month-to-Month,Fiber,Cash,No
+831,48,Male,5,3292,101911,One Year,Fiber,Credit Card,Yes
+832,22,Female,4,2197,207742,Month-to-Month,None,UPI,Yes
+833,55,Female,5,3962,231094,Two Year,DSL,Debit Card,Yes
+834,20,Female,8,4563,247723,One Year,DSL,Debit Card,No
+835,40,Male,10,2024,92806,Two Year,Fiber,Credit Card,Yes
+836,54,Male,4,532,217605,Two Year,None,UPI,Yes
+837,54,Male,4,4525,240097,One Year,None,Debit Card,Yes
+838,27,Female,3,3066,207478,Two Year,DSL,Cash,Yes
+839,27,Female,7,3303,180591,Two Year,None,UPI,Yes
+840,36,Male,3,4396,175596,Month-to-Month,DSL,Debit Card,Yes
+841,34,Female,3,4209,174957,Two Year,DSL,UPI,Yes
+842,38,Male,10,1219,242204,Two Year,DSL,Credit Card,Yes
+843,31,Male,5,1472,191871,Two Year,None,UPI,Yes
+844,26,Female,5,4218,253154,Two Year,DSL,Debit Card,Yes
+845,63,Male,6,4902,82307,One Year,DSL,Credit Card,No
+846,18,Female,8,2707,245998,Month-to-Month,Fiber,UPI,No
+847,68,Male,10,4926,131757,Two Year,DSL,Cash,Yes
+848,62,Female,6,4820,63664,Two Year,DSL,Debit Card,No
+849,30,Female,1,3530,176536,One Year,Fiber,Credit Card,No
+850,21,Female,8,4075,269438,Two Year,Fiber,UPI,Yes
+851,18,Male,8,3616,160528,One Year,None,Cash,Yes
+852,66,Male,9,3785,285553,Month-to-Month,DSL,Debit Card,Yes
+853,57,Female,9,1143,210399,Month-to-Month,None,Cash,No
+854,49,Female,2,694,232472,Two Year,None,UPI,Yes
+855,51,Male,2,4496,241182,Two Year,Fiber,UPI,No
+856,45,Male,3,988,291836,Two Year,None,Credit Card,Yes
+857,48,Male,1,2704,99037,One Year,DSL,Cash,No
+858,25,Female,4,3157,219912,Two Year,Fiber,Credit Card,No
+859,56,Male,4,3776,195272,Two Year,DSL,Debit Card,Yes
+860,43,Male,9,1602,234135,Month-to-Month,DSL,Credit Card,Yes
+861,51,Female,9,1741,198487,Two Year,Fiber,Debit Card,No
+862,20,Male,9,1015,28074,Month-to-Month,DSL,UPI,No
+863,67,Male,10,892,156621,Two Year,Fiber,UPI,Yes
+864,29,Male,7,1130,237434,Month-to-Month,DSL,Cash,Yes
+865,18,Female,2,4216,242679,Two Year,Fiber,Debit Card,No
+866,61,Female,10,2347,62265,Month-to-Month,None,UPI,Yes
+867,22,Female,5,3155,26061,One Year,DSL,Cash,No
+868,47,Female,4,1479,169882,Month-to-Month,Fiber,Cash,Yes
+869,47,Female,8,3902,123502,Month-to-Month,DSL,Credit Card,Yes
+870,34,Female,2,4371,294944,Month-to-Month,DSL,Cash,Yes
+871,65,Female,6,777,266505,Two Year,DSL,UPI,No
+872,64,Male,5,732,117228,Two Year,Fiber,Credit Card,Yes
+873,40,Male,2,2052,216548,Two Year,None,Debit Card,No
+874,32,Female,10,3770,186469,One Year,None,Debit Card,Yes
+875,54,Male,1,2909,23233,One Year,None,UPI,No
+876,38,Male,8,4012,252277,Month-to-Month,Fiber,UPI,No
+877,31,Female,2,525,166140,One Year,None,Credit Card,Yes
+878,19,Male,7,960,114135,Month-to-Month,Fiber,Credit Card,No
+879,28,Male,9,4264,227314,Month-to-Month,DSL,UPI,No
+880,68,Male,9,3931,23682,Month-to-Month,DSL,UPI,No
+881,56,Male,8,3983,164455,One Year,None,Debit Card,No
+882,55,Male,10,2494,234404,Two Year,Fiber,Debit Card,Yes
+883,51,Female,9,990,295810,One Year,DSL,Debit Card,Yes
+884,55,Female,2,1572,101198,Month-to-Month,Fiber,UPI,Yes
+885,67,Female,6,3673,51830,Month-to-Month,Fiber,Cash,No
+886,51,Male,4,715,20234,One Year,DSL,UPI,No
+887,35,Female,4,2223,67616,Month-to-Month,Fiber,UPI,Yes
+888,47,Male,5,2092,281365,Month-to-Month,DSL,Debit Card,Yes
+889,32,Male,3,3106,152482,One Year,DSL,UPI,No
+890,44,Male,1,658,221127,One Year,DSL,Credit Card,Yes
+891,68,Male,8,3813,202485,One Year,Fiber,UPI,Yes
+892,51,Female,5,3341,11051,Month-to-Month,DSL,UPI,No
+893,69,Female,3,2276,86918,Month-to-Month,Fiber,UPI,Yes
+894,55,Male,10,2552,88116,Two Year,DSL,UPI,No
+895,50,Female,7,2795,238931,Two Year,DSL,Cash,Yes
+896,41,Male,7,2196,218547,One Year,None,UPI,No
+897,32,Female,1,3493,236572,Two Year,None,Credit Card,No
+898,47,Female,9,2969,141379,Month-to-Month,None,Credit Card,No
+899,59,Male,2,2446,66889,Two Year,Fiber,UPI,No
+900,68,Female,5,4309,236256,Month-to-Month,Fiber,Debit Card,No
+901,34,Male,5,3283,48134,One Year,DSL,Cash,Yes
+902,22,Female,8,4144,212834,One Year,DSL,UPI,Yes
+903,46,Male,8,3000,237579,Month-to-Month,DSL,UPI,Yes
+904,21,Male,7,4145,35954,Two Year,DSL,UPI,No
+905,27,Female,7,3145,196093,One Year,Fiber,Debit Card,Yes
+906,34,Female,6,2849,236999,One Year,DSL,Debit Card,No
+907,27,Male,6,2432,220938,Two Year,DSL,Debit Card,No
+908,34,Female,9,3794,211499,Two Year,None,Cash,Yes
+909,37,Female,6,2257,277136,Month-to-Month,DSL,Credit Card,No
+910,41,Male,2,1616,11961,Two Year,DSL,Cash,Yes
+911,22,Male,2,3067,22497,Two Year,DSL,Debit Card,No
+912,51,Female,5,3999,266446,Two Year,Fiber,Credit Card,No
+913,23,Male,4,992,285399,Month-to-Month,None,Credit Card,Yes
+914,19,Male,2,3806,145639,Month-to-Month,DSL,Debit Card,No
+915,30,Male,3,1119,245889,One Year,DSL,Debit Card,Yes
+916,60,Female,7,3732,189075,Month-to-Month,None,Cash,No
+917,60,Female,8,4323,30389,One Year,DSL,Debit Card,Yes
+918,65,Male,6,2880,185595,Two Year,Fiber,Credit Card,No
+919,28,Female,5,2046,223175,One Year,DSL,UPI,Yes
+920,68,Male,1,4063,13358,One Year,Fiber,Debit Card,Yes
+921,64,Female,8,2105,262557,Two Year,Fiber,Debit Card,No
+922,40,Male,3,4252,217596,One Year,DSL,Cash,Yes
+923,33,Male,6,2390,264488,Month-to-Month,None,Cash,No
+924,48,Female,3,1775,115982,Month-to-Month,Fiber,Debit Card,No
+925,28,Male,7,3243,238129,Month-to-Month,None,Credit Card,Yes
+926,33,Female,7,2993,277842,Month-to-Month,DSL,Credit Card,Yes
+927,25,Female,9,856,103079,One Year,Fiber,UPI,Yes
+928,21,Male,5,1369,65805,One Year,DSL,Debit Card,Yes
+929,57,Male,8,1385,172421,Two Year,None,Cash,Yes
+930,21,Female,10,2501,217849,One Year,DSL,Credit Card,No
+931,42,Male,10,1783,248483,One Year,DSL,UPI,Yes
+932,20,Male,8,1119,54041,One Year,Fiber,Debit Card,No
+933,49,Male,1,1382,280146,Two Year,DSL,Credit Card,Yes
+934,20,Male,5,1296,117524,Month-to-Month,DSL,Debit Card,Yes
+935,44,Male,3,4142,228306,One Year,DSL,Debit Card,Yes
+936,46,Female,1,3925,29738,Two Year,Fiber,Credit Card,No
+937,49,Female,4,1796,282847,Two Year,None,Credit Card,Yes
+938,67,Male,8,744,123776,Two Year,None,Credit Card,No
+939,68,Male,3,3395,190494,Month-to-Month,DSL,Debit Card,No
+940,36,Male,10,1429,202971,One Year,Fiber,Debit Card,No
+941,38,Female,2,1019,287785,Two Year,DSL,UPI,Yes
+942,22,Male,9,3712,278449,Month-to-Month,None,Cash,No
+943,35,Female,10,2909,239334,Two Year,Fiber,Debit Card,Yes
+944,45,Female,5,507,290926,Two Year,None,Cash,No
+945,59,Female,7,3025,246371,Two Year,None,Credit Card,Yes
+946,39,Male,2,3923,87963,Two Year,Fiber,Debit Card,No
+947,38,Female,9,2519,131987,Two Year,Fiber,UPI,Yes
+948,23,Male,9,4782,161638,Month-to-Month,DSL,UPI,Yes
+949,18,Female,4,4167,134591,One Year,DSL,Cash,Yes
+950,22,Male,4,4171,77766,One Year,None,Credit Card,No
+951,58,Female,6,3301,16511,One Year,Fiber,Cash,No
+952,29,Male,10,585,124816,One Year,Fiber,Credit Card,Yes
+953,43,Female,10,3615,259432,Month-to-Month,DSL,UPI,No
+954,63,Male,10,4732,276909,Month-to-Month,None,Cash,No
+955,51,Male,6,2968,161426,Month-to-Month,None,UPI,No
+956,66,Male,1,4119,296073,Two Year,DSL,UPI,No
+957,31,Male,9,2136,169892,Two Year,Fiber,Credit Card,No
+958,43,Female,2,4083,121576,Two Year,DSL,Cash,No
+959,62,Female,5,4509,81088,One Year,DSL,Cash,No
+960,44,Male,9,3826,87525,Two Year,DSL,UPI,Yes
+961,26,Female,4,2718,23780,One Year,DSL,UPI,Yes
+962,43,Male,3,2717,278733,Two Year,Fiber,Credit Card,No
+963,64,Male,7,2869,114188,One Year,DSL,Debit Card,Yes
+964,39,Female,6,4138,103326,Two Year,Fiber,Debit Card,Yes
+965,64,Male,8,3003,75785,Two Year,DSL,UPI,Yes
+966,47,Male,3,1443,29309,Month-to-Month,None,Debit Card,No
+967,60,Female,5,3337,64195,Two Year,Fiber,Debit Card,No
+968,65,Male,10,3160,35901,Two Year,None,Debit Card,No
+969,34,Male,4,3436,164648,Month-to-Month,DSL,Debit Card,No
+970,43,Male,4,4944,35464,One Year,DSL,UPI,No
+971,53,Male,4,4447,288404,Month-to-Month,DSL,Debit Card,Yes
+972,18,Female,10,2176,134997,Month-to-Month,Fiber,Debit Card,No
+973,25,Female,8,1696,66683,One Year,None,Credit Card,Yes
+974,66,Female,6,4605,182502,Two Year,Fiber,UPI,No
+975,52,Male,3,3287,166177,One Year,Fiber,Cash,Yes
+976,69,Male,10,1961,88484,Two Year,DSL,Cash,No
+977,32,Female,5,3818,259819,Two Year,None,Credit Card,No
+978,64,Male,6,1166,216486,One Year,DSL,Credit Card,No
+979,39,Male,5,2676,151449,Month-to-Month,Fiber,UPI,No
+980,31,Male,6,4243,63592,One Year,DSL,Cash,No
+981,43,Male,8,1100,148419,Two Year,None,Debit Card,No
+982,45,Female,7,3152,65798,One Year,DSL,Credit Card,Yes
+983,40,Female,5,4922,145370,One Year,None,Cash,No
+984,31,Female,10,4324,253767,Two Year,None,UPI,Yes
+985,41,Male,6,4406,30922,Month-to-Month,DSL,Debit Card,No
+986,19,Female,4,1479,236817,One Year,Fiber,UPI,Yes
+987,62,Female,9,2951,12866,Two Year,DSL,Credit Card,Yes
+988,43,Male,4,1128,122669,Two Year,Fiber,Cash,Yes
+989,31,Male,1,2129,278042,One Year,Fiber,Cash,Yes
+990,68,Female,7,4196,290539,Month-to-Month,DSL,Cash,Yes
+991,24,Female,7,3930,180091,One Year,Fiber,Cash,Yes
+992,20,Female,4,4174,276150,Month-to-Month,Fiber,Debit Card,No
+993,64,Female,3,4429,175465,Month-to-Month,DSL,Debit Card,Yes
+994,40,Male,8,3265,283100,Month-to-Month,DSL,UPI,No
+995,63,Female,5,4869,131724,Month-to-Month,DSL,Debit Card,No
+996,60,Female,10,615,72901,One Year,Fiber,Credit Card,Yes
+997,64,Male,7,2503,210569,Two Year,None,Credit Card,Yes
+998,62,Female,4,1192,127192,Two Year,Fiber,Cash,No
+999,35,Male,4,3662,182646,Two Year,None,Credit Card,Yes
+1000,55,Male,8,1605,104881,Two Year,DSL,UPI,Yes
